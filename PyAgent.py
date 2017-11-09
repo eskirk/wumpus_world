@@ -27,18 +27,22 @@ def PyAgent_Process(stench, breeze, glitter, bump, scream):
         percept_str += "Stench=True,"
     else:
         percept_str += "Stench=False,"
+
     if breeze == 1:
         percept_str += "Breeze=True,"
     else:
         percept_str += "Breeze=False,"
+
     if glitter == 1:
         percept_str += "Glitter=True,"
     else:
         percept_str += "Glitter=False,"
+
     if bump == 1:
         percept_str += "Bump=True,"
     else:
         percept_str += "Bump=False,"
+
     if scream == 1:
         percept_str += "Scream=True"
     else:
